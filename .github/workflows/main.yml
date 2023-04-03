@@ -8,3 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: zwping/fork-sync@v1.6.5
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          owner: lior15
+          base: master
+          head: master

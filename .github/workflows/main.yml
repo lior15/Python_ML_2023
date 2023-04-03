@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: zwping/fork-sync@v1.6.5
         with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.REPO }}
           owner: lior15
           base: master
           head: master

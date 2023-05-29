@@ -11,5 +11,5 @@ jobs:
         with:
           token: ${{ secrets.REPO }}
           owner: lior15
-          base: master
-          head: master
+          base: main
+          head: main

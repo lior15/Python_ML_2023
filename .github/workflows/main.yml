@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-  - cron: "0 2 * * 1-5"
+  - cron: "25 17 * * 1,4"
 jobs:
   sync_fork:
     name: sync fork

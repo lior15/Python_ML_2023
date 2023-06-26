@@ -1,0 +1,9 @@
+,method,mean_fit_time,parameters,train_r2,test_MSE,test_r2
+0,Linear Regression without text,33.147654,"{'regressor': [LinearRegression()],'regressor__fit_intercept': True,'regressor__n_jobs':5}",0.336666,5.648516,0.386358
+7,Random Forest with bag of words,154.0038199901581,"{'regressor': RandomForestRegressor(max_depth=10, min_samples_leaf=5), 'regressor__max_depth': 10, 'regressor__min_samples_leaf': 5}",0.42146096002087974,5.253596249084397,0.4292612151072204
+1,Ridge without text,1.339875,"{'regressor': [Ridge(alpha=1)],'regressor__alpha': [0.001, 0.01, 0.1, 1, 10]}",0.496035,4.499048,0.511234
+2,Lasso without text,1114.591888,"{'regressor': [Lasso(alpha=0.001)],'regressor__alpha': [0.01, 0.001, 0.1, 1, 10]}",0.406582,5.395524,0.413842
+3,Random Forest without text,329.572775,"{'regressor': [RandomForestRegressor(max_depth=15,min_samples_leaf=5)],'regressor__max_depth': [5, 10],'regressor__min_samples_leaf': [5, 10]}",0.442481,5.062057,0.45007
+4,KNN without text,0.532665,"{'regressor': [KNeighborsRegressor(n_neighbors=10,weights='distance')],'regressor__n_neighbors': [10, 20, 40, 100],'regressor__weights': ['uniform', 'distance']}",0.496814,4.504861,0.510602
+5,Linear Regression with bag of words,138.784838,"{'regressor': [LinearRegression(n_jobs=5)],'regressor__fit_intercept': [True, False],'regressor__n_jobs': [5, 10, 15]}",0.634735,3.09018,0.66429
+6,Linear Regression with bag of words,4.4,"{'regressor': [Ridge(alpha=10)],'regressor__alpha': [0.001, 0.01, 0.1, 1, 10]}",0.749,2.3059104010313902,0.7494911222792112
